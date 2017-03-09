@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "enlargeHeaderTableView.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window.frame = [UIScreen mainScreen].bounds;
+    enlargeHeaderTableView *vc = [[enlargeHeaderTableView alloc]init];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

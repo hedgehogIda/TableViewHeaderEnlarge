@@ -15,6 +15,8 @@
 		98E1E4491E70FD1000F07C99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E1E4471E70FD1000F07C99 /* LaunchScreen.storyboard */; };
 		98E1E4541E70FD1000F07C99 /* TableViewHeaderEnlardeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E1E4531E70FD1000F07C99 /* TableViewHeaderEnlardeTests.m */; };
 		98E1E45F1E70FD1000F07C99 /* TableViewHeaderEnlardeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E1E45E1E70FD1000F07C99 /* TableViewHeaderEnlardeUITests.m */; };
+		98E1E46E1E70FD7800F07C99 /* enlargeHeaderTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E1E46D1E70FD7800F07C99 /* enlargeHeaderTableView.m */; };
+		98E1E4721E71024A00F07C99 /* 路飞.png in Resources */ = {isa = PBXBuildFile; fileRef = 98E1E4711E71024A00F07C99 /* 路飞.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		98E1E45A1E70FD1000F07C99 /* TableViewHeaderEnlardeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewHeaderEnlardeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E1E45E1E70FD1000F07C99 /* TableViewHeaderEnlardeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewHeaderEnlardeUITests.m; sourceTree = "<group>"; };
 		98E1E4601E70FD1000F07C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E1E46C1E70FD7800F07C99 /* enlargeHeaderTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enlargeHeaderTableView.h; sourceTree = "<group>"; };
+		98E1E46D1E70FD7800F07C99 /* enlargeHeaderTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = enlargeHeaderTableView.m; sourceTree = "<group>"; };
+		98E1E4711E71024A00F07C99 /* 路飞.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "路飞.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +106,11 @@
 		98E1E4381E70FD0F00F07C99 /* TableViewHeaderEnlarde */ = {
 			isa = PBXGroup;
 			children = (
+				98E1E4711E71024A00F07C99 /* 路飞.png */,
 				98E1E43C1E70FD0F00F07C99 /* AppDelegate.h */,
 				98E1E43D1E70FD0F00F07C99 /* AppDelegate.m */,
+				98E1E46C1E70FD7800F07C99 /* enlargeHeaderTableView.h */,
+				98E1E46D1E70FD7800F07C99 /* enlargeHeaderTableView.m */,
 				98E1E43F1E70FD0F00F07C99 /* ViewController.h */,
 				98E1E4401E70FD0F00F07C99 /* ViewController.m */,
 				98E1E4421E70FD1000F07C99 /* Main.storyboard */,
@@ -248,6 +256,7 @@
 			files = (
 				98E1E4491E70FD1000F07C99 /* LaunchScreen.storyboard in Resources */,
 				98E1E4461E70FD1000F07C99 /* Assets.xcassets in Resources */,
+				98E1E4721E71024A00F07C99 /* 路飞.png in Resources */,
 				98E1E4441E70FD1000F07C99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98E1E4411E70FD0F00F07C99 /* ViewController.m in Sources */,
+				98E1E46E1E70FD7800F07C99 /* enlargeHeaderTableView.m in Sources */,
 				98E1E43E1E70FD0F00F07C99 /* AppDelegate.m in Sources */,
 				98E1E43B1E70FD0F00F07C99 /* main.m in Sources */,
 			);
